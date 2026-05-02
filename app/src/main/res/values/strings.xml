@@ -1,0 +1,263 @@
+<resources>
+    <string name="app_name">Hábitos</string>
+
+    <!-- Auth -->
+    <string name="login_title">Bienvenido</string>
+    <string name="login_subtitle">Inicia sesión para continuar</string>
+    <string name="login_username">Usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="login_no_account">¿No tienes cuenta?</string>
+    <string name="login_register">Regístrate</string>
+    <string name="login_error_empty">Por favor completa todos los campos</string>
+    <string name="login_error_invalid">Usuario o contraseña incorrectos</string>
+    <string name="login_biometric">Usar huella dactilar</string>
+    <string name="login_pin">Usar PIN</string>
+
+    <!-- Register -->
+    <string name="register_title">Crear cuenta</string>
+    <string name="register_name">Nombre completo</string>
+    <string name="register_email">Correo electrónico</string>
+    <string name="register_username">Nombre de usuario</string>
+    <string name="register_password">Contraseña</string>
+    <string name="register_confirm_password">Confirmar contraseña</string>
+    <string name="register_button">Crear cuenta</string>
+    <string name="register_have_account">¿Ya tienes cuenta?</string>
+    <string name="register_photo">Agregar foto</string>
+    <string name="register_error_passwords">Las contraseñas no coinciden</string>
+    <string name="register_error_username_taken">El usuario ya está en uso</string>
+    <string name="register_success">Cuenta creada exitosamente</string>
+
+    <!-- Biometric -->
+    <string name="biometric_title">Hábitos</string>
+    <string name="biometric_subtitle">Usa tu huella para acceder</string>
+    <string name="biometric_negative">Usar PIN</string>
+    <string name="biometric_setup_title">Configurar acceso rápido</string>
+    <string name="biometric_setup_description">Activa el acceso con huella dactilar o PIN para entrar más rápido</string>
+    <string name="biometric_enable">Habilitar huella dactilar</string>
+    <string name="biometric_not_available">Huella no disponible en este dispositivo</string>
+    <string name="biometric_failed">Autenticación fallida</string>
+
+    <!-- PIN -->
+    <string name="pin_title">Ingresa tu PIN</string>
+    <string name="pin_error">PIN incorrecto</string>
+    <string name="pin_setup_title">Configura tu PIN</string>
+    <string name="pin_setup_confirm">Confirma tu PIN</string>
+    <string name="pin_mismatch">Los PINs no coinciden</string>
+    <string name="pin_enable">Habilitar PIN</string>
+    <string name="pin_disable">Deshabilitar PIN</string>
+    <string name="pin_change">Cambiar PIN</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_habits">Hábitos</string>
+    <string name="nav_daily">Revisión</string>
+    <string name="nav_reports">Informes</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Home / Dashboard -->
+    <string name="home_title">Mi progreso</string>
+    <string name="home_filter_year">Año</string>
+    <string name="home_filter_month">Mes</string>
+    <string name="home_filter_type">Tipo</string>
+    <string name="home_filter_habit">Hábito</string>
+    <string name="home_filter_all">Todos</string>
+    <string name="home_filter_good">Hábitos buenos</string>
+    <string name="home_filter_bad">Hábitos malos</string>
+    <string name="home_no_habits">Aún no tienes hábitos registrados</string>
+    <string name="home_add_first">Agrega tu primer hábito</string>
+
+    <!-- Months -->
+    <string name="month_january">Enero</string>
+    <string name="month_february">Febrero</string>
+    <string name="month_march">Marzo</string>
+    <string name="month_april">Abril</string>
+    <string name="month_may">Mayo</string>
+    <string name="month_june">Junio</string>
+    <string name="month_july">Julio</string>
+    <string name="month_august">Agosto</string>
+    <string name="month_september">Septiembre</string>
+    <string name="month_october">Octubre</string>
+    <string name="month_november">Noviembre</string>
+    <string name="month_december">Diciembre</string>
+
+    <!-- Days of week -->
+    <string name="day_monday_short">L</string>
+    <string name="day_tuesday_short">M</string>
+    <string name="day_wednesday_short">X</string>
+    <string name="day_thursday_short">J</string>
+    <string name="day_friday_short">V</string>
+    <string name="day_saturday_short">S</string>
+    <string name="day_sunday_short">D</string>
+    <string name="day_monday">Lunes</string>
+    <string name="day_tuesday">Martes</string>
+    <string name="day_wednesday">Miércoles</string>
+    <string name="day_thursday">Jueves</string>
+    <string name="day_friday">Viernes</string>
+    <string name="day_saturday">Sábado</string>
+    <string name="day_sunday">Domingo</string>
+
+    <!-- Habits -->
+    <string name="habits_title">Mis hábitos</string>
+    <string name="habits_good">Hábitos buenos</string>
+    <string name="habits_bad">Hábitos malos</string>
+    <string name="habits_add_good">Nuevo hábito bueno</string>
+    <string name="habits_add_bad">Nuevo hábito malo</string>
+    <string name="habits_empty">No tienes hábitos de este tipo</string>
+    <string name="habits_edit">Editar</string>
+    <string name="habits_delete">Eliminar</string>
+    <string name="habits_delete_confirm">¿Eliminar este hábito?</string>
+    <string name="habits_delete_message">Esta acción eliminará el hábito y todo su historial. No se puede deshacer.</string>
+
+    <!-- Habit Form (Good) -->
+    <string name="habit_form_title_create">Nuevo hábito</string>
+    <string name="habit_form_title_edit">Editar hábito</string>
+    <string name="habit_form_name">Nombre del hábito</string>
+    <string name="habit_form_name_hint">Ej: Hacer ejercicio</string>
+    <string name="habit_form_description">Descripción</string>
+    <string name="habit_form_description_hint">¿Por qué quieres este hábito?</string>
+    <string name="habit_form_days">Días de la semana</string>
+    <string name="habit_form_days_hint">Selecciona al menos un día</string>
+    <string name="habit_form_schedule">Horario</string>
+    <string name="habit_form_schedule_enabled">Habilitar horario</string>
+    <string name="habit_form_schedule_time">Hora de inicio</string>
+    <string name="habit_form_schedule_end">Hora de fin</string>
+    <string name="habit_form_duration">Duración</string>
+    <string name="habit_form_goal">Meta</string>
+    <string name="habit_form_goal_hint">Ej: 30 minutos diarios</string>
+    <string name="habit_form_reminder">Recordatorio</string>
+    <string name="habit_form_reminder_time">Hora del recordatorio</string>
+    <string name="habit_form_save">Guardar hábito</string>
+
+    <!-- Bad Habit Form -->
+    <string name="bad_habit_form_title_create">Nuevo hábito a dejar</string>
+    <string name="bad_habit_form_title_edit">Editar hábito</string>
+    <string name="bad_habit_form_name">¿Qué quieres dejar?</string>
+    <string name="bad_habit_form_name_hint">Ej: Dejar de fumar</string>
+    <string name="bad_habit_form_description">¿Por qué quieres dejarlo?</string>
+    <string name="bad_habit_form_description_hint">Describe tu motivación</string>
+    <string name="bad_habit_form_reminder_phrase">Frase de recordatorio</string>
+    <string name="bad_habit_form_reminder_phrase_hint">Ej: ¡Fumar daña tu salud!</string>
+    <string name="bad_habit_form_save">Guardar</string>
+    <string name="bad_habit_form_unit">Unidad de cantidad</string>
+    <string name="bad_habit_form_unit_hint">Ej: cigarrillos, cervezas</string>
+    <string name="bad_habit_form_unit_help">Para registrar cantidad cuando falles. Opcional.</string>
+
+    <!-- Daily review extras -->
+    <string name="daily_failed">Fallé</string>
+    <string name="daily_quantity_title">¿Cuántos %1$s?</string>
+    <string name="daily_quantity_label">Cantidad</string>
+    <string name="daily_quantity_for_unit">Cantidad de %1$s</string>
+    <string name="daily_save_success">¡Guardado con éxito!</string>
+    <string name="daily_no_apply_today">No aplica hoy</string>
+
+    <!-- Reports extras -->
+    <string name="reports_quantity_section">Cantidad acumulada</string>
+    <string name="reports_quantity_total">%1$d %2$s en el período</string>
+    <string name="day_completed_title">Cumplidos</string>
+    <string name="day_pending_title">No cumplidos</string>
+
+    <!-- Theme toggle -->
+    <string name="cd_switch_to_dark">Activar modo oscuro</string>
+    <string name="cd_switch_to_light">Activar modo claro</string>
+
+    <!-- Login users list -->
+    <string name="login_choose_user">Selecciona tu usuario</string>
+    <string name="login_password_for">Contraseña de %1$s</string>
+    <string name="login_no_users">No hay usuarios registrados</string>
+    <string name="login_create_new">Crear nuevo usuario</string>
+
+    <!-- Daily review extras -->
+    <string name="daily_select_date">Seleccionar fecha</string>
+
+    <!-- Durations -->
+    <string name="duration_30min">30 min</string>
+    <string name="duration_1h">1 hora</string>
+    <string name="duration_1h30">1h 30min</string>
+    <string name="duration_2h">2 horas</string>
+
+    <!-- Daily Review -->
+    <string name="daily_title">Revisión del día</string>
+    <string name="daily_today">Hoy</string>
+    <string name="daily_completed">Completado</string>
+    <string name="daily_pending">Pendiente</string>
+    <string name="daily_save">Guardar revisión</string>
+    <string name="daily_saved">Revisión guardada</string>
+    <string name="daily_streak">racha</string>
+    <string name="daily_streak_days">días sin %1$s</string>
+    <string name="daily_question_good">¿Cumpliste con este hábito hoy?</string>
+    <string name="daily_question_bad">¿Lograste evitarlo hoy?</string>
+    <string name="daily_no_habits">No tienes hábitos para hoy</string>
+    <string name="daily_reset_streak">¡No te rindas! El contador se reinició a 0</string>
+    <string name="daily_continue_streak">¡Bien hecho! Llevas %1$d días consecutivos</string>
+
+    <!-- Reports -->
+    <string name="reports_title">Informes</string>
+    <string name="reports_compliance">Cumplimiento total</string>
+    <string name="reports_best_streak">Mejor racha</string>
+    <string name="reports_current_streak">Racha actual</string>
+    <string name="reports_weekly_chart">Cumplimiento semanal</string>
+    <string name="reports_habit_breakdown">Desglose por hábito</string>
+    <string name="reports_habit_column">Hábito</string>
+    <string name="reports_compliance_column">Cumpl.</string>
+    <string name="reports_streak_column">Racha</string>
+    <string name="reports_failures_column">Fallos</string>
+    <string name="reports_no_data">Sin datos para el período seleccionado</string>
+    <string name="reports_days">días</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Perfil</string>
+    <string name="profile_edit">Editar perfil</string>
+    <string name="profile_name">Nombre</string>
+    <string name="profile_email">Correo</string>
+    <string name="profile_username">Usuario</string>
+    <string name="profile_change_photo">Cambiar foto</string>
+    <string name="profile_change_password">Cambiar contraseña</string>
+    <string name="profile_save">Guardar cambios</string>
+    <string name="profile_logout">Cerrar sesión</string>
+    <string name="profile_logout_confirm">¿Cerrar sesión?</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Configuración</string>
+    <string name="settings_security">Seguridad</string>
+    <string name="settings_pin">PIN de acceso</string>
+    <string name="settings_biometric">Huella dactilar</string>
+    <string name="settings_notifications">Notificaciones</string>
+    <string name="settings_notifications_enabled">Habilitar notificaciones</string>
+    <string name="settings_appearance">Apariencia</string>
+    <string name="settings_dark_mode">Modo oscuro</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_habits">Hábitos</string>
+    <string name="notification_channel_habits_desc">Recordatorios de hábitos diarios</string>
+    <string name="notification_habit_title">Es hora de tu hábito</string>
+    <string name="notification_habit_body">Hora de cumplir tu hábito</string>
+
+    <!-- Generic -->
+    <string name="generic_cancel">Cancelar</string>
+    <string name="generic_confirm">Confirmar</string>
+    <string name="generic_save">Guardar</string>
+    <string name="generic_delete">Eliminar</string>
+    <string name="generic_edit">Editar</string>
+    <string name="generic_back">Volver</string>
+    <string name="generic_error">Ocurrió un error inesperado</string>
+    <string name="generic_loading">Cargando…</string>
+    <string name="generic_empty">Sin resultados</string>
+    <string name="generic_yes">Sí</string>
+    <string name="generic_no">No</string>
+    <string name="generic_ok">Aceptar</string>
+    <string name="generic_enabled">Habilitado</string>
+    <string name="generic_disabled">Deshabilitado</string>
+    <string name="generic_optional">Opcional</string>
+    <string name="generic_required">Requerido</string>
+    <string name="field_required">Este campo es requerido</string>
+    <string name="field_max_chars">Máximo %1$d caracteres</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_profile_photo">Foto de perfil</string>
+    <string name="cd_back_button">Botón volver</string>
+    <string name="cd_habit_completed">Hábito completado</string>
+    <string name="cd_habit_pending">Hábito pendiente</string>
+    <string name="cd_calendar_day">Día %1$d</string>
+    <string name="cd_streak_fire">Racha activa</string>
+</resources>
